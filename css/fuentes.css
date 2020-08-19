@@ -1,0 +1,38 @@
+@font-face{
+	font-family: Montserrat-Thin;
+	src: url(../font/Montserrat-Thin.ttf);
+}
+@font-face{
+	font-family: Oswald-SemiBold;
+	src: url(../font/Oswald-SemiBold.ttf);
+}
+@font-face{
+	font-family: Oswald-Regular;
+	src: url(../font/Oswald-Regular.ttf);
+}
+@font-face{
+	font-family: Oswald-Medium;
+	src: url(../font/Oswald-Medium.ttf);
+}
+@font-face{
+	font-family: SourceSansPro-Regular;
+	src: url(../font/SourceSansPro-Regular.ttf);
+}
+/*=====================================================================*/
+body{
+	font-family:'Montserrat-Thin';
+}
+h1{
+	font-family:'Oswald-SemiBold';
+}
+h2{
+	font-family:'Oswald-Regular';
+
+}
+h3{
+	font-family:'Oswald-Medium.ttf';
+	
+}
+nav{
+	font-family:'SourceSansPro-Regular';
+}

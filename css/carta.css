@@ -1,0 +1,109 @@
+h1{
+	text-align: center;
+	color: rgb(0,0,0,.5);
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+h2{
+	text-align: center;
+	margin-bottom: 10px;
+	color: rgb(0,0,0,.5);
+	font-size: 1em;
+}
+
+.galeria-img{
+	object-fit: cover;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: all 0.5s;
+	height: 250px;
+}
+.galeria-img:hover{
+	transform: scale(1.02);
+}
+
+.modal{
+
+	width: 100%;
+	min-height: 100vh;
+	/*background: rgba(0,0,0,0.9);*/
+	background:white;/*Azul*/
+	opacity: .9;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100000; /*para tarerlo hasta el frente*/
+	display: none;
+	color: #A6D1F0; /* Gris*/
+	font-size: 2.0em;
+
+}
+.modal h2{
+	color: rgb(0,0,0,.5);
+	font-weight: bold;
+	padding: 10px;
+}
+.modal li{
+	padding: 10px;
+	color: rgb(0,0,0,.5);
+	font-weight: bold;
+}
+.sudadera1{
+	display: none;
+}
+.sudadera2{
+	display: none;
+}
+.sudadera3{
+	display: none;
+}
+.sudadera4{
+	display: none;
+}
+.sudadera5{
+	display: none;
+}
+.sudadera6{
+	display: none;
+}
+.lista-carta{
+	border: solid 3px #A6D1F0; /* azul*/
+	border-radius: 10px;
+	max-width: 800px;
+	
+
+}
+.lista-carta li{
+	margin-left: 50px;
+	
+}
+.modal-cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-size: .8em;
+}
+.modal-img{
+	width: 50%;
+}
+.modal-btn{
+	position: absolute;/*Para que pierda su posicion*/
+	top: 10px;
+	right: 10px;
+	color: white; /* Gris*/
+	cursor: pointer;
+	font-weight: bold;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background: #191970;
+	font-size: 1.5em;
+	text-align: center;
+	border-radius: 50%;
+	font-family: monospace;
+}
+.modal-abrir{
+	display: block;
+}
